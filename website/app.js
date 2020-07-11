@@ -14,7 +14,7 @@ const baseUrl =`https://api.openweathermap.org/data/2.5/weather`;
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getDate()+'.'+ d.getMonth()+1+'.'+ d.getFullYear();
+let newDate = d.getDate()+'.'+ (d.getMonth()+1)+'.'+ d.getFullYear();
 
 // Personal API Key for OpenWeatherMap API
 const apiKey='1a0e1a35b60ba6236f4320341fd32b64';
